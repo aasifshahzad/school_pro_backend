@@ -67,7 +67,7 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         logger.error(f"Shutdown error: {str(e)}")
 
-origins = ["http://localhost:3000","https://mzbs.vercel.app"]
+origins = ["http://127.0.0.1:8000/docs#/","http://localhost:3000","https://mzbs.vercel.app"]
 
 app = FastAPI(
     title="SCHOOL PRO BACKEND", 
