@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.whl
+pip-log.txt
+pip-delete-this.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+junit.xml
+# sdist artifacts
+*.tar.gz
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.venv*
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy cache
+.mypy_cache/
+
+# Ruff cache
+.ruff_cache/
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# OS or Editor files
+.DS_Store
+*.bak
+*.orig
+*~
+*.log
+*.tmp
+*.pyc
+*.pyo
+*.pyd
+
+# Python packaging artifacts
+*.whl
+dist/
+build/
+*.egg-info/
